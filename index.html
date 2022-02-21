@@ -79,7 +79,7 @@
             <p class="count-text">Sec</p>
           </li>
         </ul>
-        <h1>NFT Drop Coming Soon!!</h1>
+        <h1>NFT Drop Coming Soon!</h1>
                
         <p>A new batch of RGB NFTs will be available very soon!</p>
         <a href="Insert Link" target="_blank" rel="noopener noreferrer" class="hero-btn btn"
@@ -88,20 +88,119 @@
       </div>
     </section>
      <!-- ==========Banner Section Ends Here========== -->
-
-     <!-- ==========About & Rarity Section Starts Here========== -->
-     <section class="container">
+     <!-- ==========About Section Starts Here========== -->
+     <section class="container" style="background-image: url('images/Background/BG.png');">
       <div class="owner-status"></div>
       <div class="countdown">
+        <h2>10,000 Unique Mints</h2>
+        <p>Each NFT comes with unique colours that contribute towards the overall rarity scale.
+          <br>Calculate your score!</p>
+        <style>
+          table {
+          border-collapse: collapse;
+           width: 80%;
+          }
 
-        <h1>10,000 Unique Mints</h1>
-        <p>How RGB came to exist</p>
-        <a href="Insert Link" target="_blank" rel="noopener noreferrer" class="hero-btn btn"
-          ><span>Join the RGB Community</span>
-        </a>
-      </div>
-    </section>
-    <!-- ==========About & Rarity Section Ends Here========== -->
+        td, th {
+        border: 0px solid #000000;
+        align: middle;
+        width: 70%;
+        }
+
+        tr:nth-child(even) {
+        background-color: #dddddd00;
+        max-height: fit-content;
+        }
+          .collapsible {
+            align:center;
+            background-color: rgba(255, 255, 255, 0.3);
+            color: white;
+            cursor: pointer;
+            padding: 32px;
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+          
+          .active, .collapsible:hover {
+            background-color: rgba(255, 255, 255, 0);
+            width: 400px;
+          }
+          
+          .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f100;
+            width: 400px;
+          }
+          </style>
+              <table>
+                <tr>
+                  <th><button type="button" class="collapsible"><h4>Red</h4></button>
+                    <div class="content">
+                      <h4>50%</h4>
+                    </div></th>
+                    <td rowspan="4"><img src="images/NFT/NFT-01.gif" alt="RGB-NFT-02" width="90%" height="90%"></td>
+                </tr>
+                <tr>
+                  <th><button type="button" class="collapsible"><h4>Orange</h4></button>
+                    <div class="content">
+                      <h4>50%</h4>
+                    </div></th>
+                  
+                </tr>
+                <tr>
+                  <th><button type="button" class="collapsible"><h4>Green</h4></button>
+                    <div class="content">
+                      <h4>50%</h4>
+                    </div></th>
+                  
+                </tr>
+                <tr>
+                  <th><button type="button" class="collapsible"><h4>Blue</h4></button>
+                    <div class="content">
+                      <h4>50%</h4>
+                    </div></th>
+                </tr></table>
+                <br><br>
+          <script>
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }
+          </script>
+          </div></section>
+    <!-- ==========About Section Ends Here========== -->
+    <!-- ==========Rarity Section Starts Here========== -->
+    <section class="container">
+      <div class="owner-status"></div>
+      <div class="countdown">
+        <h2>Rarity</h2>
+        <p>3-Easy Steps to Attribute your NFT</p>
+  <!-- ===== Rarity Section Ends here  ==== -->
+      <!-- Footer Section Start Here -->
+      <section class="container" style="background-image: url(images/Background/BG.)">
+        <div class="owner-status"></div>
+        <div class="countdown">
+          <style>
+            .
+          </style>
+        
+          <div style=text-align: left; h4>Updates<h4>
+          <p>Don't miss out on the latest NFT news!</p>
+      
+    <!-- Footer Section Ends Here -->
     <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/app.js"></script>
