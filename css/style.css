@@ -36,15 +36,22 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 1rem 2rem;
-  min-height: 100%
+  min-height: 90%
 }
 .container2 {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   padding: 0rem 2rem;
-  min-height: 70%px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem 2rem;
 }
 
 /* HEADER */
@@ -179,6 +186,11 @@ section {
   margin-bottom: 0rem;
   align: center;
 }
+.countdown h5 {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
 
 .countdown p {
   font-size: 1.1rem;
@@ -196,7 +208,22 @@ section {
 .column p {
   font-size: 0.9rem;
   font-family: var(--font-secondary);
-  text-align: center;
+  text-align: center;}
+
+.footer h1 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+.footer h2 {
+      font-size: 1rem;
+      font-family: var(--font-secondary);
+      text-align: center;}
+.footer p {
+        font-size: 1rem;
+        font-family: var(--font-secondary);
+        text-align: left;}
 /* OWNER STYLES */
 
 .owner-status {
@@ -223,4 +250,3 @@ section {
     font-size: 1rem;
   }
 }
- 
