@@ -52,6 +52,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0rem 2rem;
+  background-image: url(images/Background/BG.png);
 }
 
 /* HEADER */
@@ -213,7 +214,8 @@ section {
 .footer h1 {
     margin: 1rem 0;
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
+    text-shadow: black;
   }
 
 .footer h2 {
@@ -223,7 +225,8 @@ section {
 .footer p {
         font-size: 1rem;
         font-family: var(--font-secondary);
-        text-align: left;}
+        text-align: center;
+        text-shadow: #000; }
 /* OWNER STYLES */
 
 .owner-status {
